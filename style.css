@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+body {
+    background-image: url('background.jpg');
+}
+
+.heading {
+    width: 100%;
+    background-color: #454545;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke
+}
+
+h1 {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Oooh Baby', cursive;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #bebebe;
+    color: #f0f0f0;
+    border: 2px groove #454545;
+    border-radius: 15px;
+    padding: 15px 25px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #bebebe
+}
